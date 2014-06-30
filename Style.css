@@ -1,0 +1,112 @@
+/* 
+  Document   : Style
+  Created on : Jun 29, 2014, 10:13:19 AM
+  Author     : Ahmad Jamaly Rabib
+  Description:
+    Purpose of the stylesheet follows.
+*/
+body{
+  background: #f9fff6;
+  font-style: inherit;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
+#tours{
+  
+}
+#allbtn{
+  background: -webkit-linear-gradient(#B0E0E6, #f9fff6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#B0E0E6, #f9fff6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#B0E0E6, #f9fff6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#B0E0E6, #f9fff6); /* Standard syntax */
+  background-clip: content-box;
+}
+table, td{
+  border: 2px cornsilk;
+    -ms-transform: translate(60px,0px); /* IE 9 */
+  -webkit-transform: translate(60px,0px); /* Chrome, Safari, Opera */
+  transform: translate(60px,0px);
+}
+button{
+    border: 2px solid;
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    -webkit-transition: width 2s;  /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    
+}
+button:hover{
+    height: 50px;
+    width: 100px;
+}
+.showdt{
+  text-align: center;
+  border-radius: 5px;
+  text-shadow: 5px 5px 5px #9c009c;
+  height: 40px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom:50px;
+  box-shadow: 10px 10px 5px #006666;
+  font-family: cursive;
+  font-size: 30px;
+  background: #f52739;
+  /**/
+  -ms-transform: translate(120px,10px); /* IE 9 */
+  -webkit-transform: translate(120px,10px); /* Chrome, Safari, Opera */
+  transform: translate(120px,10px);
+  
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+  color: #6fa77f;
+  
+  -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+  animation: myfirst 5s;
+}
+.showdt:hover{
+  width: 300px;
+}
+h2{
+  margin: auto;
+  width: 70%;
+  text-shadow: 5px 5px 5px #9c094b;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+  font-family: fantasy;
+  color: #f5fad5;
+  height: 50px;
+  font-size: 50px;
+}
+h2:hover{
+  width: 300px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0px;
+}
+ul li{
+  padding-left: 300px;
+  display: block;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
+
+
